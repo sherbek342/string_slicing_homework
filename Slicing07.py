@@ -7,6 +7,6 @@ def main(s,n):
     Returns:
         str: answer
     """
-    a = s[:n]
+    a = s[:-n]
     return a
-print(main("codefo", 3))
+print(main("codefoded", 3))
